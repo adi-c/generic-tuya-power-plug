@@ -1,19 +1,24 @@
 # generic-tuya-power-plug
  Information on generic tuya power plug with monitoring.
 
+ Name: Tuya 16A 20A EU Smart Socket WiFi Smart Plug With Power Monitoring
+ Aliexpress Link: [here](https://www.aliexpress.com/item/1005005374840269.html?spm=a2g0o.order_list.order_list_main.25.83be1802E3a6GU#nav-description)
+
  Device: ESP8285
  Device board: AJW-02_8285
 
+ Notes: The plug does not ahave any inscription that can be used to identify a brand name or a model.
+
  ## Opening the plastic box
  Just insert a precision screwdriver in one of the grounding tabs and pry it by pressing down on the handle
-![plug_box](./images/20231001_220302.jpg)
+![plug_box](https://github.com/adi-c/generic-tuya-power-plug/blob/master/images/20231001_220302.jpg?raw=true)
 
  ## Soldering the wires
 Solder a wire to GPIO 0 on the top side of the plug PCB. This one needs to be shorted to GND when powering the device.
-![top_side](./images/20231001_220414.jpg)
+![top_side](https://github.com/adi-c/generic-tuya-power-plug/blob/master/images/20231001_220414.jpg?raw=true)
 
 Solder 4 additional wires according to the picture below (Please ignore the broken tab on the TX pin :)):
-![bottom_side](./images/20231001_220429.jpg)
+![bottom_side](https://github.com/adi-c/generic-tuya-power-plug/blob/master/images/20231001_220429.jpg?raw=true)
 
 Connect all the wires:
 
